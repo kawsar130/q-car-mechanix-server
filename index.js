@@ -68,6 +68,10 @@ app.get("/", (req, res) => {
     res.send("Running Q-Car Mechanix");
 });
 
+app.get("/hello", (req, res) => {
+    res.send("Hello updated here");
+});
+
 app.listen(port, () => {
     console.log("Running Q-Car Mechanix on port " + port);
 });
